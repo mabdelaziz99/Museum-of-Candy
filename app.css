@@ -1,10 +1,10 @@
 body{
-    background-color: rgb(240, 214, 241);
+    background-color: rgb(221, 193, 222);
     font-family: "Nunito", sans-serif;
 }
 .nav-link{
-    color: white;
-    text-transform: uppercase;
+    color: rgb(143, 143, 143);
+    text-transform: capitalize;
     font-size: 1.5rem;
     font-weight: 200;
 }
@@ -30,9 +30,12 @@ span{
     h1 {
     font-size:2.5rem; }
 }
-@media (max-width:900px) {
+@media (max-width:1000px) {
     h1 {
     font-size:1.5rem; }
+    .navbar-toggler {
+    display: block;
+    }    
 }
 .secondtitle{
     font-family: "Nunito", "sans-serif";
@@ -56,4 +59,9 @@ span{
     line-height: 2.25em;
     font-size: 1.5rem;
 
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280,0,0,0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
