@@ -1,9 +1,12 @@
 body{
-    background-color: rgb(221, 193, 222);
+    background-color: rgb(25, 35, 95);
     font-family: "Nunito", sans-serif;
 }
+a{
+    text-decoration: none;
+}
 .nav-link{
-    color: rgb(143, 143, 143);
+    color: rgb(119, 119, 119);
     text-transform: capitalize;
     font-size: 1.5rem;
     font-weight: 200;
@@ -44,7 +47,7 @@ span{
     text-transform: uppercase;
 }
 #secondpara{
-    color: rgb(194, 5, 5);
+    color: white;
     line-height: 2.25em;
     font-size: 1.5rem;
 }
@@ -55,7 +58,7 @@ span{
     text-transform: uppercase;
 }
 #thirdpara{
-    color: rgb(194, 5, 5);
+    color: white;
     line-height: 2.25em;
     font-size: 1.5rem;
 
